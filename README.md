@@ -7,6 +7,12 @@ avls utilizes (and thus requires) ffmpeg to scan audio and video. It utilizes Pi
 
 It currently outputs table format, but a future iteration will allow you to specify output format at the command line, including JSON, TeX, HTML, etc. using the tabulate library.
 
+Requirements:
+
+[Pillow](https://github.com/python-pillow/Pillow)
+[python-magic](https://github.com/ahupp/python-magic)
+[tabulate](https://pypi.org/project/tabulate/)
+
 Sample output:
 
 ```

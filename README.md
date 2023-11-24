@@ -27,3 +27,15 @@ IMG_0097.JPG                         3.0MB             jfif                     
 IMG_0093.JPG                         3.3MB             jfif                                jpeg         2448      3264                         24              3:4                                                         image/jpeg
 Dead Or Alive - Brand New Lover.mkv  20.2MB   0:03:33  matroska,webm               791613  h264          640       480  25/1                                0  4:3       opus         48000         2           0       0  video/x-matroska
 ```
+
+TODOS:
+
+* Eliminate need for python-magic
+* Obtain details from these types:
+    * Vector art
+    * AnimGIFs
+    * MJPEG
+* Output to CSON and XML
+* Properly enumerate audio/sub languages
+* Handle package dependencies
+* Handle command line arguments
